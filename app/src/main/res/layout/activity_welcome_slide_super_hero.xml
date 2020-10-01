@@ -51,22 +51,22 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintLeft_toRightOf="parent"
         />
-    <Button
-        android:id="@+id/btn_get_started"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/login_text"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="42dp"
-        android:layout_marginRight="42dp"
-        android:textSize="18sp"
-        android:text="Get Started"
-        android:fontFamily="@font/montserrat_light"
-        android:background="@drawable/button_white"
-        android:layout_marginBottom="42dp"
-        android:onClick="clickGetStarted"
-        />
+<!--    <Button-->
+<!--        android:id="@+id/btn_get_started"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/login_text"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        android:layout_marginLeft="42dp"-->
+<!--        android:layout_marginRight="42dp"-->
+<!--        android:textSize="18sp"-->
+<!--        android:text="Get Started"-->
+<!--        android:fontFamily="@font/montserrat_light"-->
+<!--        android:background="@drawable/button_white"-->
+<!--        android:layout_marginBottom="42dp"-->
+<!--        android:onClick="clickGetStarted"-->
+<!--        />-->
     <TextView
         android:id="@+id/login_text"
         android:layout_width="wrap_content"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorWhite"
-    tools:context=".WelcomeSlideCalendar">
+    tools:context=".Welcome_Fragment">
 
     <ImageView
         android:id="@+id/calendar"
@@ -77,20 +77,21 @@
 <!--        android:textSize="18sp"-->
 <!--        android:fontFamily="@font/montserrat_light"-->
 <!--        android:background="@drawable/button_white"-->
-<!--        android:onClick="clickGetStarted"-->
+
 <!--        />-->
 
     <LinearLayout
-        android:layout_width="411dp"
-        android:layout_height="23dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
+        android:weightSum="9"
         app:layout_constraintBottom_toBottomOf="@+id/background_satu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.605"
-        android:weightSum="9">
+        app:layout_constraintVertical_bias="0.605">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -98,11 +99,10 @@
 
             <ImageView
                 android:id="@+id/btnwelcome1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="?android:attr/listChoiceIndicatorSingle" />
+                app:layout_constraintTop_toTopOf="parent"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -112,12 +112,11 @@
 
             <ImageView
                 android:id="@+id/btnwelcome2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="?android:attr/listChoiceIndicatorSingle" />
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -127,12 +126,11 @@
 
             <ImageView
                 android:id="@+id/btnwelcome3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:srcCompat="?android:attr/listChoiceIndicatorSingle" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
@@ -143,8 +141,7 @@
         android:layout_height="match_parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </FrameLayout>
+        app:layout_constraintTop_toTopOf="parent"></FrameLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
